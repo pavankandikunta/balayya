@@ -27,6 +27,22 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>balayya-Releases Nexus Repository</name>
+	      <url>http://13.231.144.89:8081/repository/balayya-releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>balayya-Snapshot Nexus Repository </name>
+	      <url>http://13.231.144.89:8081/repository/balayya-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+  
 
   <build>
     <finalName>jaibalayya</finalName>
